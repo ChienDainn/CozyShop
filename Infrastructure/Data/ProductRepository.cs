@@ -72,3 +72,10 @@ public class ProductRepository(StoreContext context) : IProductRepository
         context.Entry(product).State = EntityState.Modified;
     }
 }
+
+
+
+
+
+//Đây là class hiện thực (implementation) của interface IProductRepository, 
+//dùng để tương tác với database thông qua StoreContext (DbContext của Entity Framework Core).

@@ -14,3 +14,6 @@ public interface IProductRepository
     bool ProductExists(int id);
     Task<bool> SaveChangesAsync();
 }
+
+
+// Đây là giao diện (interface) định nghĩa các phương thức mà lớp ProductRepository phải triển khai.
